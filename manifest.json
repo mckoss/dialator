@@ -8,22 +8,13 @@
     "128": "images/clock-128.png"
   },
 
-  "permissions": [
-    "activeTab",
-    "declarativeContent"
+  "content_scripts": [
+    {
+      "matches": ["https://elearning.boatus.org/*/course.html"],
+      "all_frames": true,
+      "js": ["content-script.js"]
+    }
   ],
-
-  "page_action": {
-    "default_icon": {
-      "38": "images/clock-128.png"
-    },
-    "default_title": "Time Dialator"
-  },
-
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
 
   "web_accessible_resources": [
     "injected.js"

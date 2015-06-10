@@ -1,0 +1,7 @@
+#!/bin/bash
+TOOLS_DIR="$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)"
+PROJ_DIR="$(dirname $TOOLS_DIR)"
+cd $PROJ_DIR
+zip -r build/dialator.zip manifest.json *.js images
+unzip -l build/dialator.zip
+
