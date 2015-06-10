@@ -3,7 +3,7 @@
   "name": "Time Dialator",
   "version": "0.1",
 
-  "description": "This extension speeds up time in this web page.",
+  "description": "Makes time go 10 times faster on certain sites.",
   "icons": {
     "128": "images/clock-128.png"
   },
