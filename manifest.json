@@ -9,10 +9,11 @@
   },
 
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "declarativeContent"
   ],
 
-  "browser_action": {
+  "page_action": {
     "default_icon": {
       "38": "images/clock-128.png"
     },
