@@ -1,15 +1,9 @@
-# Time Dialotor
+# Time Dialator
 
-Chrome Extension which can be used to emulate time passing 10x faster than the normal rate.
+Experimental Chrome Extension which can be used to emulate time passing 10x faster than the normal rate on certain
+web pages.
 
 # How to Use
 
-Install [Time Dialator](http://xxx) from the Chrome Store.  Once installed, visit any web page
-and click the clock icon in the toolbar.  Any in-page JavaScript that uses these timer
-functions:
-
-    window.setTimeout
-
-will execute 10x faster than normal (1/10 the delay).
-
-
+Install [Time Dialator](https://chrome.google.com/webstore/detail/time-dialator/ogeiedjkfgjagpndghpknbjhhchejkng)
+from the Chrome Web Store.
